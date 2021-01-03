@@ -1,0 +1,3 @@
+include ':mathview'
+include ':app'
+rootProject.name = "MathView"

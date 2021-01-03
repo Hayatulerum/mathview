@@ -5,21 +5,22 @@
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
    ```
-3. Install NPM packages
+Step 2. Add the dependency
    ```sh
-   npm install
+  dependencies {
+	        implementation 'com.github.mohd-naushaaad:MathView:1.0.0'
+	}
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
 
 
 

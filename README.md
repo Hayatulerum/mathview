@@ -18,7 +18,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
    ```sh
 dependencies {
-	        implementation 'com.github.mohd-naushaaad:mathview:1.0.1'
+	        implementation 'com.github.mohd-naushaaad:mathview:1.0.2'
 }
    ```
    

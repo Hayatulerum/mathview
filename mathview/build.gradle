@@ -4,7 +4,7 @@ plugins {
     id 'com.github.dcendents.android-maven'
 }
 group='mohd-naushaaad'
-version = '1.0.0'
+version = '1.0.1'
 
 android {
     compileSdkVersion 30

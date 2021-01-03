@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val math: MathView = findViewById(R.id.formula1)
-        math.text = "\$\$ ${MathView.color("blue","876980")} \$\$"
-        math.textColor = "#FF5733"
+        math.text = MathView.inLine(text())
+        math.textSize = "1"
 
         math.isVerticalScrollBarEnabled = false
         math.isHorizontalScrollBarEnabled = false
@@ -21,5 +21,13 @@ class MainActivity : AppCompatActivity() {
         math.settings.builtInZoomControls = true
         math.settings.setSupportZoom(true)
 
+    }
+
+    private fun text(): String {
+        val string = StringBuilder()
+
+        string.append(" \\\\frac{87}{8790}")
+
+        return string.toString()
     }
 }

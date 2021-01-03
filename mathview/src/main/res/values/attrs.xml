@@ -4,7 +4,7 @@
     <declare-styleable name="MathView">
         <attr name="text" format="string"/>
         <attr name="textColor" format="string"/>
-        <attr name="textSize" format="dimension"/>
+        <attr name="textSize" format="string"/>
     </declare-styleable>
 
 </resources>
